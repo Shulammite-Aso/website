@@ -18,7 +18,6 @@
   /* override _forms.scss */
   .menu-item {
     margin-bottom: 0;
-    display: flex;
   }
 
   .menu-container {
@@ -42,28 +41,27 @@
   }
 
   .status {
-    border-radius: 4px;
-    padding: 1px 6px;
+    border-radius: 8px;
+    padding: 3px 10px;
     font-size: var(--p-xsmall);
+    font-weight: bold;
     height: 15px;
     line-height: 13px;
-    width: 90px;
+    width: 50px;
     margin-top: 10px;
     text-align: center;
-    margin-left: 12px;
-    background-color: var(--white);
-    color: var(--light-grey);
-    border: 1px solid var(--light-grey);
+    margin-left: 5px;
+    color: var(--dark-grey);
   }
 
-  .status-coming-soon {
+  .status-soon {
     line-height: 10px;
+    background-color: var(--salmon);
   }
 
   .status-beta {
     border: none;
-    background-color: var(--blue);
-    color: var(--white);
+    background-color: var(--brand-light);
   }
 </style>
 
@@ -78,7 +76,7 @@
             <MenuLink href={sub.path}>{sub.title}</MenuLink>
             {#if sub.status}
               <span class={sub.status ? `status status-${sub.status}` : ""}>
-                {sub.status.split("-").join(" ")}
+                {sub.status.charAt(0).toUpperCase() + sub.status.slice(1)}
               </span>
             {/if}
           </li>
