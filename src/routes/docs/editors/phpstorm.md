@@ -1,5 +1,5 @@
 ---
-section: ide
+section: editors
 title: PhpStorm
 ---
 

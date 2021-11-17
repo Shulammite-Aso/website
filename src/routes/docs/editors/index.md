@@ -1,6 +1,6 @@
 ---
-section: ide
-title: IDE
+section: editors
+title: Editors
 ---
 
 Gitpod isn't only a browser-based IDE, or only 'VS Code in the browser'.
@@ -17,22 +17,22 @@ There are currently 3 general ways to configure an IDE to work with Gitpod:
 
 ### Browser
 
-- [vscode](/vscode)
+- [vscode](editors/vscode)
 
 ### Desktop
 
-- [GoLand](/goland)
-- [IntelliJ](/intellij)
-- [vscode](/vscode)
+- [GoLand](editors/goland)
+- [IntelliJ](editors/intellij)
+- [vscode](editors/vscode)
 
 ### Browser (via Docker image)
 
-- [CLion](/clion)
-- [DataGrip](/datagrip)
-- [GoLand](/goland)
-- [IntelliJ](/intellij)
-- [phpstorm](/phpstorm)
-- [pycharm](/pycharm)
-- [rider](/rider)
-- [rubymine](/rubymine)
-- [webstorm](/webstorm)
+- [CLion](editors/clion)
+- [DataGrip](editors/datagrip)
+- [GoLand](editors/goland)
+- [IntelliJ](editors/intellij)
+- [phpstorm](editors/phpstorm)
+- [pycharm](editors/pycharm)
+- [rider](editors/rider)
+- [rubymine](editors/rubymine)
+- [webstorm](editors/webstorm)
