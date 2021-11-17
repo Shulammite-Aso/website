@@ -1,5 +1,5 @@
 export enum MenuStatus {
-  ComingSoon = "coming-soon",
+  Soon = "soon",
   Beta = "beta",
 }
 
