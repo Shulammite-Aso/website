@@ -14,7 +14,7 @@ This page contains information for those who are part of the JetBrains private B
 
 Please note that **the implementation of the JetBrains Beta is subject to change** until the feature is announced publically.
 
-> **Important:** The current JetBrains private Beta works via [Code With Me](https://www.jetbrains.com/code-with-me/) to facilitate early Beta testing. The final JetBrains is expected not to require use of Code With Me. The Beta implementation means that anyone who might discover the workspace URL could potentially get access to your workspace. Therefore, you should only use the JetBrains Desktop Beta for projects that are non-critical, and be careful with any secrets or access granted to a workspace that is connected to JetBrains Desktop.
+> **Warning:** Currently, our JetBrains implementation uses [Code With Me](https://www.jetbrains.com/code-with-me/) links and a shared password to facilitate early Beta testing. This means that for now, anyone who might discover the workspace URL could potentially get full access to your workspace. This solution is temporary and will be resolved before the final release.
 
 ## How to enable JetBrains private Beta
 
