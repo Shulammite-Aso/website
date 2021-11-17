@@ -17,7 +17,7 @@ There are currently 3 general ways to configure an IDE to work with Gitpod:
 
 ### Browser
 
-- [vscode](editors/vscode)
+- [vscode](editors/vscode-browser)
 
 ### Desktop
 

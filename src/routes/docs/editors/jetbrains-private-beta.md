@@ -10,7 +10,7 @@ title: JetBrains Private Beta
 
 Thank you for offering to take part in the JetBrains Private Beta! 🎉
 
-This page contains information for those who are part of the JetBrains private Beta. Please note that this page is not yet referenced from the main site, **please treat this page as confidential**, until the Beta is opened publically. Any information contained here will eventually be moved to [the main Gitpod IDE documentation](/docs/ide) upon public opening of the Beta.
+This page contains information for those who are part of the JetBrains private Beta. Please note that this page is not yet referenced from the main site, **please treat this page as confidential**, until the Beta is opened publically. Any information contained here will eventually be moved to [the main Gitpod IDE documentation](/docs/editors) upon public opening of the Beta.
 
 Please note that **the implementation of the JetBrains Beta is subject to change** until the feature is announced publically.
 
