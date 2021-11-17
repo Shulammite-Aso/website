@@ -1,5 +1,5 @@
 ---
-section: editors
+section: configure
 title: VS Code Extensions
 ---
 

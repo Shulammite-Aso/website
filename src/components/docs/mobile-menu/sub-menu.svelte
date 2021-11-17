@@ -54,6 +54,30 @@
   .toggle-button__icon-arrow.open {
     transform: rotate(180deg);
   }
+
+  .status {
+    border-radius: 8px;
+    padding: 3px 10px;
+    font-size: var(--p-xsmall);
+    font-weight: bold;
+    height: 15px;
+    line-height: 13px;
+    width: 50px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 5px;
+    color: var(--dark-grey);
+  }
+
+  .status-soon {
+    line-height: 10px;
+    background-color: var(--salmon);
+  }
+
+  .status-beta {
+    border: none;
+    background-color: var(--brand-light);
+  }
 </style>
 
 <button
@@ -107,6 +131,11 @@
         {#each currentSection?.subMenu as sub}
           <MenuItem href={sub.path} onClick={() => ($subMenuState = false)}>
             {sub.title}
+            {#if sub.status}
+              <span class={sub.status ? `status status-${sub.status}` : ""}>
+                {sub.status.charAt(0).toUpperCase() + sub.status.slice(1)}
+              </span>
+            {/if}
           </MenuItem>
         {/each}
       </ul>

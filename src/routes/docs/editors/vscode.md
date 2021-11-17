@@ -1,6 +1,6 @@
 ---
 section: editors
-title: VS Code
+title: VS Code Desktop
 ---
 
 <script context="module">
@@ -8,8 +8,6 @@ title: VS Code
 </script>
 
 # {title}
-
-## VSCode Desktop
 
 > **Please note:** VS Code Desktop Support is currently in beta If you experience any issues, or have feedback, please [get in touch](https://www.gitpod.io/support).
 
