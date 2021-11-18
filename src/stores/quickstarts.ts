@@ -55,6 +55,7 @@ const quickstartItems = readable(
     mapQuickstart("Perl", "quickstart/perl", false),
     mapQuickstart("PHP Drupal", "quickstart/drupal", false),
     mapQuickstart("PHP Laravel", "quickstart/laravel", false),
+    mapQuickstart("PlanetScale", "quickstart/planetscale", false),
     mapQuickstart(
       "Python Django",
       "quickstart/python",
